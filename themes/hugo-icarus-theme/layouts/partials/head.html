@@ -51,7 +51,7 @@
     <meta name="twitter:url" content="{{ .Permalink }}"></meta>
     <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}"></meta>
     {{ if eq .URL "/" }}
-    <meta name="twitter:image" content="{{ .Site.BaseURL }}bunners/default.jpg"></meta>
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}banners/default.jpg"></meta>
     {{ else }}
     <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.banner }}"></meta>
     {{ end }}
