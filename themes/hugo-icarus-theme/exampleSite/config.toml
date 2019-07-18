@@ -13,6 +13,7 @@ theme = "hugo-icarus-theme"
 themesDir = "../.."
 
 enableGitInfo = true
+pygmentsUseClassic=true
 
 [permalinks]
     post = "/:year/:month/:day/:filename"
@@ -72,7 +73,7 @@ enableGitInfo = true
 # Add your social network accounts to the profile section on the left
 # by entering your username. The links to your account will be
 # created automatically.
-    github          = "digitalcraftsman"
+    github          = ""
     gitlab          = ""
     bitbucket       = ""
     jsfiddle        = ""
@@ -95,7 +96,7 @@ enableGitInfo = true
     stackoverflow   = ""
     reddit          = ""
     pinterest       = ""
-    googleplus      = ""
+    googleplus      = "mizuti7802+lf@gmail.com"
     facebook        = ""
     facebook_admin  = ""
     twitter_domain  = ""

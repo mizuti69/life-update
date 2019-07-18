@@ -9,4 +9,4 @@ banner = "banners/banner_school.jpg"
 images = []
 +++
 
-wellcome to Hugo
+wellcome to Hugo  
