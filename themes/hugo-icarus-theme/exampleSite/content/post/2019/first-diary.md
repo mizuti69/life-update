@@ -1,6 +1,5 @@
 +++
 title = "はじめての投稿"
-slug = "diary"
 tags = []
 categories = ["Diary"]
 date = "2019-07-18"
