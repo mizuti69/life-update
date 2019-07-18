@@ -44,9 +44,8 @@
     <!-- needs to be loaded first for following scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" /></meta>
-    <meta name="twitter:site" content="{{ .Site.Social.writer_twitter_id }}"></meta>
-    <meta name="twitter:creator" content="{{ .Site.Social.writer_twitter_id }}"></meta>
+    <meta name="twitter:card" content="summary" /></meta>
+    <meta name="twitter:site" content="{{ .Site.Social.twitter }}"></meta>
     <meta name="twitter:title" content="{{ if eq .URL "/" }}<title>{{ .Site.Title }}</title>{{ else }}<title>{{ .Title }}&nbsp;-&nbsp;{{ .Site.Title }}</title>{{ end }}"></meta>
     <meta name="twitter:url" content="{{ .Permalink }}"></meta>
     <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}"></meta>
