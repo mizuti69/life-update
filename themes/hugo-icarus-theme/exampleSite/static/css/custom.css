@@ -1,0 +1,56 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600,800);
+
+#header {
+    background: #0068b7;
+}
+
+#header a,#header a:visited {
+    color: #fff;
+}
+
+body {
+    background: #f9fcff;
+}
+
+body,h1,h2,h3,ul,p,li {
+    font: 14px Roboto,"Noto Sans CJK JP","Noto Sans JP",Arial,Helvetica,sans-serif;
+}
+
+.search-form-input, .search-form-input.ins-search-input, .search-form-input.st-ui-search-input, .search-form-input.st-default-search-input {
+    color: #fff;
+}
+#search-form-wrap .search-form .search-form-submit {
+    color: #fff;
+}
+
+.archive-article {
+    background: initial;
+    -webkit-box-shadow: initial;
+    box-shadow: initial;
+}
+
+.article-share-line {
+    width: 50px;
+    height: 36px;
+    float: left;
+    position: relative;
+    color: #999;
+    text-shadow: 0 1px #fff;
+}
+.article-share-line:hover {
+    background: #32cd32;
+    text-shadow: 0 1px #008abe;
+    color: #fff;
+}
+.article-share-line:before {
+font-size: 20px;
+width: 20px;
+height: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-top: -10px;
+margin-left: -10px;
+text-align: center;
+}
