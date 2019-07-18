@@ -3,6 +3,7 @@ title = ""
 tags = []
 categories = []
 date = "2017-05-20T12:00:23+02:00"
+lastmod = ""
 description = ""
 menu = ""
 banner = "banners/placeholder.png"

@@ -12,6 +12,7 @@ theme = "hugo-icarus-theme"
 # Comment the themesDir option if you use this theme in production
 themesDir = "../.."
 
+enableGitInfo = true
 
 [permalinks]
     post = "/:year/:month/:day/:slug"
