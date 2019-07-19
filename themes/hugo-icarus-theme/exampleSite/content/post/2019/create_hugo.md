@@ -195,3 +195,103 @@ GitHub 上に Push
 
 希望のドメインが空いている事を祈りましょう  
 これでサイトを確認しローカルと同じく表示されていることを確認できれば完了です  
+
+## テンプレートのカスタマイズ  
+
+### 更新日時も表示されるように設定  
+Git のコミット情報から自動で更新日時を取得するように設定  
+
+```
+> config.toml
+enableGitInfo = true
+```
+
+取得した値を表示するよう組み込み  
+
+```
+> layouts/partials/article_header.html
+# 10行目付近  
+        <div class="article-date">
+            <i class="fa fa-calendar"></i>
+            <time datetime="{{ .Date }}" itemprop="datePublished">{{ .Date.Format .Site.Params.date_format }}</time>
+            &middot;
+
+            <!-- 更新日時設定 -->
+            <i class="fa fa-repeat"></i>
+            <time datetime="{{ .Lastmod }}" itemprop="datePublished">{{ .Lastmod.Format .Site.Params.date_format }}</time>
+
+            <!--{{ .WordCount }}
+            {{ with .Site.Data.l10n.articles.words }}{{.}}{{end}} -->
+            &middot;
+            <i class="fas fa-clock"></i>
+            {{ .ReadingTime }}
+            {{ with .Site.Data.l10n.articles.readingtime }}{{.}}{{end}}
+        </div>
+```
+
+他にも記事の Predefined で手動指定もできる（らしい）  
+<i class="fas fa-external-link-alt"></i> [[Front Matter Variables](https://gohugo.io/content-management/front-matter/#predefined)  
+
+### CodeHighlighting
+Markdown でのコード記述を SyntaxHighlighting するように設定  
+<i class="fas fa-external-link-alt"></i> [Syntax Highlighting](https://gohugo.io/content-management/syntax-highlighting/)  
+
+```
+> config.toml
+pygmentsUseClassic=true
+```
+
+CSSを出力して配置（必要？）  
+
+```
+> hugo gen chromastyles --style=monokai > static\css\syntax.css
+```
+
+### URLパーマリンクの変更  
+利用しているカスタムテーマののパマリンクは自動で `/yyyy/mm/dd/title` となっていたため、  
+日本語文字のタイトル記事を書くとURLがエンコードされてしまい良くないのでフォーマットを変更する  
+<i class="fas fa-external-link-alt"></i> [URL Management](https://gohugo.io/content-management/urls/#permalinks)  
+
+```
+> config.toml
+[permalinks]
+    post = "/:year/:month/:day/:filename"
+```
+
+### カスタムCSS
+カスタムCSSの有効化  
+利用しているテーマでは下記のように指定してできた  
+
+```
+> config.toml
+[params]
+    # Add custom assets with their paths relative to the static folder
+	custom_css = ["css/custom.css"]
+```
+
+CSSの配置先は  `exampleSite\static\css\` の方  
+フォントの指定や テーマで採用されている FontAwsome が4系と古かったため５系に上書きもしている  
+
+```css
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600,800);
+@import url(https://use.fontawesome.com/releases/v5.X.X/css/all.css);
+
+body,h1,h2,h3,ul,p,li {
+    font: 14px Roboto,"Noto Sans CJK JP","Noto Sans JP",Arial,Helvetica,sans-serif;
+}
+```
+
+### FontAwsome 5アップデート対応  
+ゴリゴリテンプレートのHTMLファイルを修正  
+ついでにサイドバーにもアイコンを埋め込み  
+
+```
+> layouts\social.html
+> layouts\profile.html
+> layouts\article_footer.html
+> layouts\article_header.html
+> layouts\widgets\categories.html
+> layouts\widgets\recent_articles.html
+> layouts\widgets\tags.html
+```
