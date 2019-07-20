@@ -57,6 +57,11 @@ pygmentsUseClasses=true
 
 [[params.menu]]
     before = false
+    label  = "Live"
+    link   = "/live"
+
+[[params.menu]]
+    before = false
     label  = "Tags"
     link   = "tags/"
 
