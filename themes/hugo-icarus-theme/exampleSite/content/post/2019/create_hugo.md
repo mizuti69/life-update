@@ -239,12 +239,20 @@ Markdown でのコード記述を SyntaxHighlighting するように設定
 ```
 > config.toml
 pygmentsUseClassic=true
+pygmentsUseClasses=true
 ```
 
 CSSを出力して配置（必要？）  
 
 ```
 > hugo gen chromastyles --style=monokai > static\css\syntax.css
+```
+
+pygments を使うために Python もインストール  
+<i class="fas fa-external-link-alt"></i> [Download the latest version for Windows](https://www.python.org/downloads/)  
+
+```
+> pip install Pygments
 ```
 
 ### URLパーマリンクの変更  
