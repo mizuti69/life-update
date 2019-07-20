@@ -12,7 +12,7 @@
             <time datetime="{{ .Date }}" itemprop="datePublished">{{ .Date.Format .Site.Params.date_format }}</time>
             &middot;
             <i class="fa fa-repeat"></i>
-            <time datetime="{{ .Page.Lastmod }}" itemprop="datePublished">{{ .Page.Lastmod.Format .Site.Params.date_format }}</time>
+            <time datetime="{{ .Lastmod }}" itemprop="datePublished">{{ .Lastmod.Format .Site.Params.date_format }}</time>
             <!--{{ .WordCount }}
             {{ with .Site.Data.l10n.articles.words }}{{.}}{{end}} -->
             &middot;
