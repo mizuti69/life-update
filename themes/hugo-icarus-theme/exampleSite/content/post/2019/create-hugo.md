@@ -232,6 +232,10 @@ enableGitInfo = true
 他にも記事の Predefined で手動指定もできる（らしい）  
 <i class="fas fa-external-link-alt"></i> [[Front Matter Variables](https://gohugo.io/content-management/front-matter/#predefined)  
 
+また Netlify の時間もタイムゾーン設定を行っておく  
+<br />
+<img src="/images/2019/create-hugo/image08.png" />  
+
 ### CodeHighlighting
 Markdown でのコード記述を SyntaxHighlighting するように設定  
 <i class="fas fa-external-link-alt"></i> [Syntax Highlighting](https://gohugo.io/content-management/syntax-highlighting/)  
