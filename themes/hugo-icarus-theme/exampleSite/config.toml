@@ -109,3 +109,7 @@ pygmentsUseClasses=true
     categories = true
     tags = true
     tag_cloud = true
+
+[frontmatter]
+date = ["date", "publishDate", "lastmod"]
+lastmod = [":git", "lastmod", ":fileModTime", "date", "publishDate"]
