@@ -241,14 +241,14 @@ Markdown でのコード記述を SyntaxHighlighting するように設定
 
 ```
 > config.toml
-pygmentsUseClassic=true
-pygmentsUseClasses=true
+pygmentsUseClasses = true
+pygmentsCodefences = true
 ```
 
 CSSを出力して配置（必要？）  
 
 ```
-> hugo gen chromastyles --style=monokai > static\css\syntax.css
+> hugo gen chromastyles --style=monokai > static\css\monokai.css
 ```
 
 pygments を使うために Python もインストール  
@@ -256,6 +256,12 @@ pygments を使うために Python もインストール
 
 ```
 > pip install Pygments
+```
+
+出力した CSS を読むこむように テンプレートHTML に追記  
+
+```
+    <link rel="stylesheet" href="{{ "css/monokai.css" | absURL }}">
 ```
 
 ### URLパーマリンクの変更  
@@ -283,9 +289,9 @@ pygments を使うために Python もインストール
 CSSの配置先は  `exampleSite\static\css\` の方  
 フォントの指定や テーマで採用されている FontAwsome が4系と古かったため５系に上書きもしている  
 
-```css
-@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:600,800);
+```
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,800);
 @import url(https://use.fontawesome.com/releases/v5.X.X/css/all.css);
 
 body,h1,h2,h3,ul,p,li {
