@@ -161,5 +161,4 @@ Run "sudo yum update" to apply all updates.
 AWS 側で security group に穴を開ける必要もないし GIP も節約でき、踏み台サーバを用意する必要もない  
 IAM 管理が大変そうだけどなかなかに便利。 AWSコンソール上からつなげるだけでも緊急用に良さそう  
 
-<iframe src="https://rcm-fe.amazon-adsystem.com/e/cm?o=9&p=12&l=ez&f=ifr&linkID=e3cbc3b4da7c4fd3d2f2cd82c15d695a&t=sinokyoufu-22&tracking_id=sinokyoufu-22" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0">
-</iframe>
+<a href="https://www.amazon.co.jp/Amazon-Services-%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3%E5%88%A5%E6%A7%8B%E7%AF%89%E3%83%BB%E9%81%8B%E7%94%A8%E3%82%AC%E3%82%A4%E3%83%89-%E6%94%B9%E8%A8%82%E7%AC%AC2%E7%89%88-Informatics/dp/4797392576/ref=as_li_ss_il?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=aws&qid=1563956483&s=gateway&sr=8-9&linkCode=li3&tag=sinokyoufu-22&linkId=8f803388bdd30fd45b59ec929c58a982&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4797392576&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=sinokyoufu-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=sinokyoufu-22&language=ja_JP&l=li3&o=9&a=4797392576" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
