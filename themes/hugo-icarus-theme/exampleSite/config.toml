@@ -2,7 +2,7 @@ baseurl = "https://life-update.netlify.com/"
 languageCode = "ja-jp"
 title = "Life update"
 # Enable comments by entering your Disqus shortname
-disqusShortname = ""
+disqusShortname = "https-life-update-netlify-com"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 # Define the number of posts per page

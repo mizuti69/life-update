@@ -7,7 +7,6 @@ description = "Hugo + Netlify で Markdown 記述をサポートし、Git 管理
 menu = ""
 banner = "banners/bunner_tech.jpg"
 images = []
-disable_comments = true
 +++
 
 <!--more-->

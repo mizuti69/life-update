@@ -7,7 +7,6 @@ description = "SE業務で利用するソフトウェア一覧のメモ Windows1
 menu = ""
 banner = "banners/bunner_tech.jpg"
 images = []
-disable_comments = true
 +++
 
 会社PC Windows10でよく利用するソフトウェア一覧  
