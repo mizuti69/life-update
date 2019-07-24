@@ -1,5 +1,5 @@
 +++
-title = "AWS SeeeionManager 検証"
+title = "AWS SessionManager 検証"
 tags = ["aws"]
 categories = ["SE"]
 date = "2019-07-24"
