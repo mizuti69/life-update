@@ -160,3 +160,6 @@ Run "sudo yum update" to apply all updates.
 リモートからでも OUT 通信で SSH が空いていれば簡単につなげることができる  
 AWS 側で security group に穴を開ける必要もないし GIP も節約でき、踏み台サーバを用意する必要もない  
 IAM 管理が大変そうだけどなかなかに便利。 AWSコンソール上からつなげるだけでも緊急用に良さそう  
+
+<iframe src="https://rcm-fe.amazon-adsystem.com/e/cm?o=9&p=12&l=ez&f=ifr&linkID=e3cbc3b4da7c4fd3d2f2cd82c15d695a&t=sinokyoufu-22&tracking_id=sinokyoufu-22" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0">
+</iframe>

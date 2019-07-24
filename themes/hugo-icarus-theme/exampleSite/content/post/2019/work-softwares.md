@@ -89,3 +89,6 @@ images = []
 <i class="fas fa-external-link-alt"></i> [Microsoft Garage Mouse without Borders](https://www.microsoft.com/en-us/download/details.aspx?id=35460)  
 <i class="fas fa-external-link-alt"></i> [Google日本語入力](https://www.google.co.jp/ime/)  
 <i class="fas fa-external-link-alt"></i> [Google Font](https://www.google.com/get/noto/)  
+
+<iframe src="https://rcm-fe.amazon-adsystem.com/e/cm?o=9&p=12&l=ez&f=ifr&linkID=e3cbc3b4da7c4fd3d2f2cd82c15d695a&t=sinokyoufu-22&tracking_id=sinokyoufu-22" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0">
+</iframe>

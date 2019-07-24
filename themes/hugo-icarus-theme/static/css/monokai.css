@@ -6,7 +6,7 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  background: #272822;
+  background: #222;
   -webkit-text-size-adjust: none;
 }
 
@@ -20,7 +20,7 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 .hljs-flow,
 .nginx .hljs-title,
 .tex .hljs-special {
-  color: #f92672;
+  color: #ff8989;
 }
 
 .hljs {
