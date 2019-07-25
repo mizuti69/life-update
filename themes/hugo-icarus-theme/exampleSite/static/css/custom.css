@@ -18,6 +18,10 @@ body,h1,h2,h3,ul,p,li {
     font: 14px Roboto,"Noto Sans CJK JP","Noto Sans JP",Arial,Helvetica,sans-serif;
 }
 
+pre {
+    margin-left: 15px;
+}
+
 .search-form-input, .search-form-input.ins-search-input, .search-form-input.st-ui-search-input, .search-form-input.st-default-search-input {
     color: #fff;
 }
@@ -64,4 +68,12 @@ text-align: center;
 .article-entry img {
     border:solid 1px #ccc;
     padding:4px;
+}
+
+.article-entry p {
+    margin-left: 15px;
+}
+
+.article-entry blockquote {
+    margin-left: 15px;
 }

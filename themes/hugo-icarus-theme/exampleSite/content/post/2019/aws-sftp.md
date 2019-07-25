@@ -13,6 +13,7 @@ images = []
 
 ## 概要  
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://aws.amazon.com/jp/sftp/" data-iframely-url="//cdn.iframe.ly/oZGA16T?iframe=card-small"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>  
+
 Amazon S3 と　SFTP プロトコルで直接ファイルのやり取りができるマネージドサービス  
 
 ### 料金

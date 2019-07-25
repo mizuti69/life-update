@@ -73,7 +73,7 @@ Hugoはコマンド実行カレントフォルダの構成を見てコンテン�
 この状態ではサイトの情報がテンプレート情報のままであるため、設定を自分の情報に修正します  
 テーマフォルダにある `config.toml` を修正  
 
-```toml
+```
 baseurl = "https://life-update.netlify.com/"
 disqusShortname = ""
 title = "Life update"
