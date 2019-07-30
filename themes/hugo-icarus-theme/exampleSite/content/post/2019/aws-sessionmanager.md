@@ -161,4 +161,8 @@ Run "sudo yum update" to apply all updates.
 AWS 側で security group に穴を開ける必要もないし GIP も節約でき、踏み台サーバを用意する必要もない  
 IAM 管理が大変そうだけどなかなかに便利。 AWSコンソール上からつなげるだけでも緊急用に良さそう  
 
-<a href="https://www.amazon.co.jp/Amazon-Services-%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3%E5%88%A5%E6%A7%8B%E7%AF%89%E3%83%BB%E9%81%8B%E7%94%A8%E3%82%AC%E3%82%A4%E3%83%89-%E6%94%B9%E8%A8%82%E7%AC%AC2%E7%89%88-Informatics/dp/4797392576/ref=as_li_ss_il?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=aws&qid=1563956483&s=gateway&sr=8-9&linkCode=li3&tag=sinokyoufu-22&linkId=8f803388bdd30fd45b59ec929c58a982&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4797392576&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=sinokyoufu-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=sinokyoufu-22&language=ja_JP&l=li3&o=9&a=4797392576" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+{{< rawhtml >}}
+<div style="border: dashed 1px #ccc;">
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4797392576/sinokyoufu-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/61iiVnqAeGL._SL160_.jpg" alt="Amazon Web Services パターン別構築・運用ガイド 改訂第2版 (Informatics&IDEA)" style="border: none;" /></a>
+</div>
+{{< /rawhtml >}}

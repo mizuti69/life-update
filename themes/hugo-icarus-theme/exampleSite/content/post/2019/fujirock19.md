@@ -136,8 +136,17 @@ FUJIROCK は最終アクトが 21時開始というクレイジーなため、�
 防水性のジャンパー プラス ポンチョがあるとベスト  
 かるーい雨のときはジャンパーで過ごし、強い天の場合はポンチョ等でリュックごと完全防御  
 
-<a href="https://www.amazon.co.jp/CARRY-ALL-BEFORE-ONE-%E3%82%BF%E3%82%AF%E3%83%86%E3%82%A3%E3%82%AB%E3%83%AB%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88/dp/B07KCD15L7/ref=as_li_ss_il?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=%E9%98%B2%E6%B0%B4+%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%91%E3%83%BC&qid=1564478544&s=gateway&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFMWDA1SUo0V0ZYVkQmZW5jcnlwdGVkSWQ9QTA1OTc2OTEyNzJJUU9QU01KR1VOJmVuY3J5cHRlZEFkSWQ9QTNCV0JCOFJHMjZGNFkmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl&linkCode=li2&tag=sinokyoufu-22&linkId=b962d1ef36ebd9f70d2e0cefdb4aec4d&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07KCD15L7&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=sinokyoufu-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=sinokyoufu-22&language=ja_JP&l=li2&o=9&a=B07KCD15L7" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /><a href="https://www.amazon.co.jp/%E3%83%AC%E3%82%A4%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%88-%E3%83%AC%E3%82%A4%E3%83%B3%E3%83%9D%E3%83%B3%E3%83%81%E3%83%A7-%E3%83%9D%E3%83%B3%E3%83%81%E3%83%A7%E3%82%B3%E3%83%BC%E3%83%88-%E3%83%AC%E3%83%87%E3%82%A3%E3%83%BC%E3%82%B9-%E3%80%90%E3%82%AB%E3%83%BC%E3%82%AD%E3%83%99%E3%83%BC%E3%82%B8%E3%83%A5%E3%80%91/dp/B07S4F4RDL/ref=as_li_ss_il?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=%E3%81%BD%E3%82%93%E3%81%A1%E3%82%87&qid=1564478624&s=gateway&sr=8-3&linkCode=li2&tag=sinokyoufu-22&linkId=9ee4bb797812b249642e81d55c3de433&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07S4F4RDL&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=sinokyoufu-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=sinokyoufu-22&language=ja_JP&l=li2&o=9&a=B07S4F4RDL" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />  
+{{< rawhtml >}}
+<div style="border: dashed 1px #ccc;">
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/B07KCD15L7/sinokyoufu-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/31A47bXIv4L._SL160_.jpg" alt="CARRY ALL BEFORE ONE XXXL ダークグレー マウンテンパーカー フード付 タクティカルジャケット ソフトシェル シャークスキン 多機能 軍用 TAD ジャンパー 高防水" style="border: none;" /></a>
+</div>
+{{< /rawhtml >}}
+{{< rawhtml >}}
+<div style="border: dashed 1px #ccc;">
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/B07S4F4RDL/sinokyoufu-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/317CamoIdnL._SL160_.jpg" alt="レインコート 自転車 バイク ポンチ レインポンチョ ポンチョコート 雨具 おしゃれ 軽量 通学 通勤 防水 防汚 レディース ギャル 【カーキベージュ】" style="border: none;" /></a>
 
+</div>
+{{< /rawhtml >}}
 
 ### 小物
 <i class="fas fa-check"></i> 帽子
@@ -149,17 +158,29 @@ FUJIROCK は最終アクトが 21時開始というクレイジーなため、�
 <i class="fas fa-check"></i> 携帯ライト  
 夜は会場中ある程度の光量はあるけど足元確認用に  
 
-<a href="https://www.amazon.co.jp/LUMINTOP-AA-2-0-LED%E3%83%95%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5%E3%83%A9%E3%82%A4%E3%83%88-14500%E9%9B%BB%E6%B1%A0%E4%B8%80%E6%9C%AC%E5%AF%BE%E5%BF%9C/dp/B07FVRG773/ref=as_li_ss_il?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=%E6%90%BA%E5%B8%AF+%E3%83%A9%E3%82%A4%E3%83%88&qid=1564478826&s=gateway&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzRlc5NFNKQzZDRE5JJmVuY3J5cHRlZElkPUEwMDI4NTMwM05PU0cyRlpBNUlOTyZlbmNyeXB0ZWRBZElkPUExVzVCNklaV1dKUk1MJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==&linkCode=li2&tag=sinokyoufu-22&linkId=8ab7134b9e166479b24dab18e138bfa8&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07FVRG773&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=sinokyoufu-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=sinokyoufu-22&language=ja_JP&l=li2&o=9&a=B07FVRG773" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+{{< rawhtml >}}
+<div style="border: dashed 1px #ccc;">
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/B07FVRG773/sinokyoufu-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/418hJloAnIL._SL160_.jpg" alt="LUMINTOP Tool AA 2.0 懐中電灯 led 懐中電灯 懐中電灯 LED フラッシュライト 明るさ650ルーメン 連続点灯60時間 5モード IP68 完全防水 耐衝撃1.5M 単三/14500電池一本対応 防災 停電対策 ハンディライト 【五年保証】 (アルミブラック)" style="border: none;" /></a>
+</div>
+{{< /rawhtml >}}
 
 <i class="fas fa-check"></i> モバイルバッテリー  
 もはや旅のお供  
 
-<a href="https://www.amazon.co.jp/%E3%80%8C%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E3%82%A2%E3%83%83%E3%83%97%E7%89%88%E3%80%8D-Poweradd-%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC-Android%E5%90%84%E7%A8%AE%E5%AF%BE%E5%BF%9C-%E9%98%B2%E7%81%BD%E3%82%B0%E3%83%83%E3%82%BA%EF%BC%88%E3%82%B7%E3%83%AB%E3%83%90%E3%83%BC%EF%BC%89/dp/B075NKTKK8/ref=as_li_ss_il?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%90%E3%83%86%E3%83%AA%E3%83%BC&qid=1564478888&s=gateway&sr=8-7&linkCode=li2&tag=sinokyoufu-22&linkId=12e73d531a05d8bf7c58dd0b11f2c8f0&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B075NKTKK8&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=sinokyoufu-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=sinokyoufu-22&language=ja_JP&l=li2&o=9&a=B075NKTKK8" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+{{< rawhtml >}}
+<div style="border: dashed 1px #ccc;">
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/B075NKTKK8/sinokyoufu-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/31oc69Kf2bL._SL160_.jpg" alt="「バージョンアップ版」 Poweradd Pilot 2GS 10000mAh モバイルバッテリー 合計3.4A出力 (3.1A+3.1A) PSE認証済 iPhone/iPad/Android各種対応 緊急用 防災グッズ（シルバー）" style="border: none;" /></a>
+</div>
+{{< /rawhtml >}}
 
 <i class="fas fa-check"></i> アウトドアチェア  
 フジロックでは必須  
 
-<a href="https://www.amazon.co.jp/%E3%80%90%E3%82%A2%E3%82%A6%E3%83%88%E3%83%89%E3%82%A2%E3%83%81%E3%82%A7%E3%82%A2%E3%83%BB%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%97%E7%94%A8%E5%93%81%E3%80%91Linkax-%E3%82%B3%E3%83%B3%E3%83%91%E3%82%AF%E3%83%88%E3%83%81%E3%82%A7%E3%82%A2-%E3%82%A2%E3%83%AB%E3%83%9F%E5%90%88%E9%87%91-%E5%B0%82%E7%94%A8%E3%82%B1%E3%83%BC%E3%82%B9%E4%BB%98%E3%81%8D-%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF%E6%A4%85%E5%AD%90/dp/B0746JHD2S/ref=as_li_ss_il?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=%E3%82%A2%E3%82%A6%E3%83%88%E3%83%89%E3%82%A2%E3%83%81%E3%82%A7%E3%82%A2&qid=1564479038&s=gateway&sr=8-10&linkCode=li2&tag=sinokyoufu-22&linkId=948ac20c90691210a44f751893442c5f&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0746JHD2S&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=sinokyoufu-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=sinokyoufu-22&language=ja_JP&l=li2&o=9&a=B0746JHD2S" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+{{< rawhtml >}}
+<div style="border: dashed 1px #ccc;">
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/B0746JHD2S/sinokyoufu-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/41ovFLuYHeL._SL160_.jpg" alt="【アウトドアチェア・キャンプ用品】Linkax 折りたたみコンパクトチェア アルミ合金&軽量 専用ケース付き (キャンプ椅子)" style="border: none;" /></a>
+</div>
+{{< /rawhtml >}}
 
 <i class="fas fa-check"></i> タオル  
 雨がふらないことを経験したことが無いので必須  
@@ -169,12 +190,20 @@ FUJIROCK は最終アクトが 21時開始というクレイジーなため、�
 濡れたものやゴミを入れる用  
 かばんやリュックが防水出ない場合、持ち物で濡れると困るものは基本的にビニールや防水の袋にいれて持っていくこと  
 
-<a href="https://www.amazon.co.jp/%E5%BC%95%E3%81%8D%E3%81%B2%E3%82%82%E8%A2%8B-%E6%8A%98%E3%82%8A%E7%95%B3%E3%81%BF%E9%98%B2%E8%99%AB-%E3%82%A2%E3%82%A6%E3%83%88%E3%83%89%E3%82%A2-%E3%83%88%E3%83%A9%E3%83%99%E3%83%AB%E3%83%90%E3%83%83%E3%82%B0-3%E3%82%B5%E3%82%A4%E3%82%BA%E3%82%BB%E3%83%83%E3%83%886%E6%9E%9A/dp/B07V31FKKH/ref=as_li_ss_il?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=%E9%98%B2%E6%B0%B4%E8%A2%8B&qid=1564479243&s=gateway&sr=8-50&linkCode=li2&tag=sinokyoufu-22&linkId=81841a8782d2684c945684acbfae1468&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07V31FKKH&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=sinokyoufu-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=sinokyoufu-22&language=ja_JP&l=li2&o=9&a=B07V31FKKH" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+{{< rawhtml >}}
+<div style="border: dashed 1px #ccc;">
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/B07V31FKKH/sinokyoufu-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/41CCD4IERCL._SL160_.jpg" alt="引きひも袋 収納袋 巾着袋 小物入れ ポーチ 折り畳み防虫 防水 軽量 アウトドア 装備品 小物 収納 巾着ポーチ 収納袋 トラベルバッグ 小物入れ 3サイズセット6枚 サボテン" style="border: none;" /></a>
+</div>
+{{< /rawhtml >}}
 
 <i class="fas fa-check"></i> ウェットティッシュ OR ボディシート系  
 飲み食いするにしても手を拭いたり、始発時の顔洗ったり  
 
-<a href="https://www.amazon.co.jp/%E3%83%A1%E3%83%B3%E3%82%BA%E3%83%93%E3%82%AA%E3%83%AC-%E8%96%AC%E7%94%A8%E3%83%87%E3%82%AA%E3%83%89%E3%83%A9%E3%83%B3%E3%83%88%E3%83%9C%E3%83%87%E3%82%A3%E3%82%B7%E3%83%BC%E3%83%88-%E9%A6%99%E3%82%8A%E6%B0%97%E3%81%AB%E3%81%AA%E3%82%89%E3%81%AA%E3%81%84-%E7%84%A1%E9%A6%99%E6%80%A7-32%E6%9E%9A%E5%85%A5/dp/B07N4BFMJ9/ref=as_li_ss_il?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=%E3%83%9C%E3%83%87%E3%82%A3%E3%83%9A%E3%83%BC%E3%83%91%E3%83%BC&qid=1564479518&s=gateway&sr=8-4&linkCode=li2&tag=sinokyoufu-22&linkId=795014ed1e36f1f901e88816d3220e21&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07N4BFMJ9&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=sinokyoufu-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=sinokyoufu-22&language=ja_JP&l=li2&o=9&a=B07N4BFMJ9" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+{{< rawhtml >}}
+<div style="border: dashed 1px #ccc;">
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/B07N4BFMJ9/sinokyoufu-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/41OsoV4tlFL._SL160_.jpg" alt="メンズビオレ 薬用デオドラントボディシート 香り気にならない 無香性 32枚入" style="border: none;" /></a>
+</div>
+{{< /rawhtml >}}
 
 <i class="fas fa-check"></i> 日焼け止め
 
@@ -190,4 +219,8 @@ FUJIROCK は最終アクトが 21時開始というクレイジーなため、�
 
 ライブヒストリー更新 ＞ [LiveHistory](/live/)  
 
-<a href="https://www.amazon.co.jp/%E3%83%93%E3%83%BC%E3%83%A0%E3%82%B9-BEAMS-%E5%8D%8A%E8%A2%96%E3%83%97%E3%83%AA%E3%83%B3%E3%83%88T%E3%82%B7%E3%83%A3%E3%83%84-FESTIVAL19-WHITE/dp/B07T4M6Z2B/ref=as_li_ss_il?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=%E3%83%95%E3%82%B8%E3%83%AD%E3%83%83%E3%82%AF&qid=1564480113&s=gateway&sr=8-1&linkCode=li2&tag=sinokyoufu-22&linkId=480946ba1c4e0b3e389a95dcd7cfd549&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07T4M6Z2B&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=sinokyoufu-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=sinokyoufu-22&language=ja_JP&l=li2&o=9&a=B07T4M6Z2B" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+{{< rawhtml >}}
+<div style="border: dashed 1px #ccc;">
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/B001A9YP88/sinokyoufu-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/412ndxZFhgL._SL160_.jpg" alt="FUJIROCKERS~THE HISTORY OF THE FUJIROCK FESTIVAL~ [DVD]" style="border: none;" /></a>
+</div>
+{{< /rawhtml >}}
