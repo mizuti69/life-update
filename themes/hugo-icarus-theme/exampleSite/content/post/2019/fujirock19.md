@@ -176,6 +176,12 @@ FUJIROCK は最終アクトが 21時開始というクレイジーなため、�
 
 <a href="https://www.amazon.co.jp/%E3%83%A1%E3%83%B3%E3%82%BA%E3%83%93%E3%82%AA%E3%83%AC-%E8%96%AC%E7%94%A8%E3%83%87%E3%82%AA%E3%83%89%E3%83%A9%E3%83%B3%E3%83%88%E3%83%9C%E3%83%87%E3%82%A3%E3%82%B7%E3%83%BC%E3%83%88-%E9%A6%99%E3%82%8A%E6%B0%97%E3%81%AB%E3%81%AA%E3%82%89%E3%81%AA%E3%81%84-%E7%84%A1%E9%A6%99%E6%80%A7-32%E6%9E%9A%E5%85%A5/dp/B07N4BFMJ9/ref=as_li_ss_il?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=%E3%83%9C%E3%83%87%E3%82%A3%E3%83%9A%E3%83%BC%E3%83%91%E3%83%BC&qid=1564479518&s=gateway&sr=8-4&linkCode=li2&tag=sinokyoufu-22&linkId=795014ed1e36f1f901e88816d3220e21&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07N4BFMJ9&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=sinokyoufu-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=sinokyoufu-22&language=ja_JP&l=li2&o=9&a=B07N4BFMJ9" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
+<i class="fas fa-check"></i> 日焼け止め
+
+<i class="fas fa-check"></i> 虫除けスプレー  
+寝てるときとかに有りが登ってきて噛まれたりする、俺は気にしないから持ってったこと無い  
+
+
 
 こんなもんかな？  
 たとえ晴れてても夜中の山は寒いです、着替えとは別に上着も持っていって損はない  
