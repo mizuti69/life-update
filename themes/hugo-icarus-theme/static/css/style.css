@@ -525,7 +525,8 @@ code {
   background: none;
   position: absolute;
   font: 13px font-icon;
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Free";
+  font-weight: bold;
 }
 #search-form-wrap .search-form .search-form-submit:before {
   content: '\f002';
@@ -942,7 +943,7 @@ a.article-title:hover {
   font-family: Georgia, "Times New Roman", "Microsoft Yahei", serif;
   font-size: 1.1em;
   margin: 0 -20px;
-  padding: 10px 20px 10px 54px;
+  padding: 10px 20px 10px 30px;
   background: #fcfcfc;
   border-left: 4px solid #eee;
 }
@@ -951,10 +952,11 @@ a.article-title:hover {
   left: 10px;
   content: "\f10d";
   color: #e2e2e2;
-  font-size: 32px;
-  font-family: FontAwesome;
+  font-size: 20px;
+  font-family: "Font Awesome 5 Free";
   text-align: center;
   position: absolute;
+  font-weight: bold;
 }
 .article-entry blockquote footer {
   font-size: 14px;
@@ -1046,8 +1048,9 @@ a.article-title:hover {
 }
 .article-comment-link:before {
   content: "\f075";
-  font-family: FontAwesome;
+  font-family: "Font Awesome 5 Free";
   padding-right: 5px;
+  font-weight: bold;
 }
 .share-container {
   float: left;
@@ -1496,11 +1499,12 @@ ol.toc {
   content: "\f0da";
   font-size: 12px;
   margin-right: 6px;
-  font-family: FontAwesome;
+  font-family: "Font Awesome 5 Free";
   -webkit-transition: 0.2s ease;
   -moz-transition: 0.2s ease;
   -ms-transition: 0.2s ease;
   transition: 0.2s ease;
+  font-weight: bold;
 }
 .layout-wrap-inner.list-categories li a:hover:before {
   color: #333;
@@ -1797,14 +1801,15 @@ ol.toc {
 .widget ul:not(#recent-post) li a:before,
 .widget ol:not(#recent-post) li a:before {
   color: #ccc;
-  content: "\f0da";
+  content: "\f067";
   font-size: 12px;
   margin-right: 6px;
-  font-family: FontAwesome;
+  font-family: "Font Awesome 5 Free";
   -webkit-transition: 0.2s ease;
   -moz-transition: 0.2s ease;
   -ms-transition: 0.2s ease;
   transition: 0.2s ease;
+  font-weight: bold;
 }
 .widget ul:not(#recent-post) li a:hover:before,
 .widget ol:not(#recent-post) li a:hover:before {
