@@ -77,3 +77,16 @@ text-align: center;
 .article-entry blockquote {
     margin-left: 15px;
 }
+
+.article-entry table {
+    margin-left: 15px;
+}
+.article-entry th {
+    background-color: #0068b7;
+    color: white;
+    padding: 5px 3px;
+}
+.article-entry td {
+    padding: 10px 3px;
+    border-bottom: 1px solid #babdc0
+}
