@@ -144,7 +144,6 @@ FUJIROCK は最終アクトが 21時開始というクレイジーなため、�
 {{< rawhtml >}}
 <div style="border: dashed 1px #ccc;">
 <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B07S4F4RDL/sinokyoufu-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/317CamoIdnL._SL160_.jpg" alt="レインコート 自転車 バイク ポンチ レインポンチョ ポンチョコート 雨具 おしゃれ 軽量 通学 通勤 防水 防汚 レディース ギャル 【カーキベージュ】" style="border: none;" /></a>
-
 </div>
 {{< /rawhtml >}}
 
