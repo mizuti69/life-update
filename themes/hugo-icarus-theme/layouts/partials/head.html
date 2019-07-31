@@ -19,7 +19,7 @@
     <link rel="icon" href="{{ "favicon.png" | absURL }}">
     <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | absURL }}"/>
     <link rel="stylesheet" href="{{ "css/style.css" | absURL }}">
-    <link rel="stylesheet" href="{{ "css/font-awesome.min.css" | absURL }}">
+    <!-- <link rel="stylesheet" href="{{ "css/font-awesome.min.css" | absURL }}"> -->
     <link rel="stylesheet" href="{{ "css/monokai.css" | absURL }}">
     <link rel="stylesheet" href="{{ "fancybox/jquery.fancybox.css" | absURL }}">
     {{ range .Site.Params.custom_css }}
@@ -49,6 +49,7 @@
     <meta name="twitter:title" content="{{ if eq .URL "/" }}<title>{{ .Site.Title }}</title>{{ else }}<title>{{ .Title }}&nbsp;-&nbsp;{{ .Site.Title }}</title>{{ end }}"></meta>
     <meta name="twitter:url" content="{{ .Permalink }}"></meta>
     <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}"></meta>
+    <!-- end -->
     {{ if eq .URL "/" }}
     <meta name="twitter:image" content="{{ .Site.BaseURL }}banners/default.jpg"></meta>
     {{ else }}
@@ -62,6 +63,7 @@
           enable_page_level_ads: true
       });
     </script>
+    <!-- end -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-54774840-6"></script>
     <script>
@@ -71,6 +73,7 @@
 
       gtag('config', 'UA-54774840-6');
     </script>
+    <!-- end -->
 </head>
 <body>
 <div class="container">
