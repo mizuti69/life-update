@@ -1,7 +1,7 @@
 +++
 title = "インフラエンジニアとして勉強した資格"
 tags = ["資格"]
-categories = ["dialy"]
+categories = ["diary"]
 date = "2019-08-01"
 description = "OSってなんですか？状態でWebサービス・インフラエンジニアに新卒配属されて勉強、取得した資格"
 menu = ""
