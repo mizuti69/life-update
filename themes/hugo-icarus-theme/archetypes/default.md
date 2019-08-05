@@ -12,3 +12,8 @@ disable_comments = true
 +++
 
 <!--more-->
+
+{{< rawhtml >}}
+<div style="border: dashed 1px #ccc;">
+</div>
+{{< /rawhtml >}}
