@@ -2,7 +2,7 @@
 title = "AWS Global Accelerator は 災害対策に使えるか"
 tags = ["aws"]
 categories = ["SE"]
-date = "2019-08-07"
+date = "2019-08-07T03:00:00+09:00"
 description = "AWS でリージョンを跨いだ災害対策環境を構築するのに Global Accelerator は使えるのか検証してみる"
 menu = ""
 banner = "banners/bunner_tech.jpg"
