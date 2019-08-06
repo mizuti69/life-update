@@ -56,8 +56,8 @@ Aug  5 20:54:10 localhost ec2-user: Error
 
 <img src="/images/2019/aws-cloudwatchlogs/cloudwatchlog_setup16.png" />  
 
-ただ何が起きたかはメールだとわかりにくぅ・・・  
-`Name` と `Description` で判断するしか無いからちゃんと設定しないとね  
+ただ何が起きたかはメールだとわかりにくい  
+`Name` と `Description` で判断するしか無いからそのへんの命名は重要そう  
 
 {{< rawhtml >}}
 <div style="border: dashed 1px #ccc;">
