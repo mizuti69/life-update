@@ -299,6 +299,7 @@ disable_comments = true
 2019/02/02  『HINA-MATSURI』 @神田明神ホール  
 2019/03/30  『uP!!! SPECIAL LIVE HOLIC extra vlo.3』 @幕張メッセイベントホール   
 2019/07/27  『フジロックフェスティバル '19』  
+2019/08/11  『ROCK IN JAPAN FES』  
 
 <iframe src="https://rcm-fe.amazon-adsystem.com/e/cm?o=9&p=12&l=ez&f=ifr&linkID=e3cbc3b4da7c4fd3d2f2cd82c15d695a&t=sinokyoufu-22&tracking_id=sinokyoufu-22" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0">
 </iframe>
