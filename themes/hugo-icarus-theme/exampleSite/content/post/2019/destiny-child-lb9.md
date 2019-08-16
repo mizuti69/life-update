@@ -5,7 +5,7 @@ categories = ["Game"]
 date = "2019-08-05"
 description = "スマートフォンゲーム デスティニーチャイルドのラグナブレイク Season 9 Summer SHOOTERS 攻略日記メモ"
 menu = ""
-banner = "banners/bunner_game.jpg"
+banner = "banners/bunner_destinychild.png"
 images = []
 +++
 

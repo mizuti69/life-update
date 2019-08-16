@@ -5,7 +5,7 @@ categories = ["Game"]
 date = "2019-08-16"
 description = "スマートフォンゲーム デスティニーチャイルドのNARRATIVEダンジョン 真夏の怪 イベント攻略メモ"
 menu = ""
-banner = "banners/bunner_game.jpg"
+banner = "banners/bunner_destinychild.png"
 images = []
 +++
 
