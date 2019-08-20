@@ -218,6 +218,9 @@ disable_comments = true
 ## VELTPUNCH
 2019/06/29  『ONEMAN LIVE 2019』 @FEVER  
 
+## WEEZER
+2019/08/14  『SUMMER SONIC EXTRA』　@豊洲PIT  
+
 ## 藍坊主
 2008/11/03  『日本工業大学大学祭」』 @日本工業大学  
 2010/12/11  『はぐれるシルバー』 @STUDIO COAST  
@@ -300,6 +303,7 @@ disable_comments = true
 2019/03/30  『uP!!! SPECIAL LIVE HOLIC extra vlo.3』 @幕張メッセイベントホール   
 2019/07/27  『フジロックフェスティバル '19』  
 2019/08/11  『ROCK IN JAPAN FES』  
+2019/08/18  『SUMMER SONIC』  
 
 <iframe src="https://rcm-fe.amazon-adsystem.com/e/cm?o=9&p=12&l=ez&f=ifr&linkID=e3cbc3b4da7c4fd3d2f2cd82c15d695a&t=sinokyoufu-22&tracking_id=sinokyoufu-22" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0">
 </iframe>
