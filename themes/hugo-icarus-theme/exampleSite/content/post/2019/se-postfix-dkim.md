@@ -1,6 +1,6 @@
 +++
 title = "自前メールサーバのPostfixにDKIM認証を追加する"
-tags = [postfix]
+tags = ["postfix"]
 categories = ["SE"]
 date = "2019-08-28"
 description = "自前でメールサーバを立てる場合、迷惑メールや受信拒否されないようにどこまで考えて対応できるか確認する"
