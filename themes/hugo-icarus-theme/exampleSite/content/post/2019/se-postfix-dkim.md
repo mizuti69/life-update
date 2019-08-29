@@ -268,6 +268,21 @@ milter_default_action = accept
 
 まだ DMARC にはチェックついているが黄色のため改善点があること、その他にも減点項目を確認し修正すれば信頼度をあげられそうだ  
 
+## DMARC を有効にする  
+DMARCはSPF、DKIM両方をチェックし、準拠しない場合の挙動を設定するレコードになる  
+詳細は下記 Googleのページがわかりやすい  
+<i class="fas fa-external-link-alt"></i> [Google Gsuite - DMARCを有効にする](https://support.google.com/a/answer/2466563?hl=ja)  
+
+例えば下記のようなレコードを登録しておくと  
+とりあえずチェックはするけど拒否はせず、認証結果のレポートだけ担当者にメールするようになる  
+
+```
+_dmarc.hogehoge.com TXT "v=DMARC1; rua=mailto:webmaster@thogehoge.com; p=none; pct=90; sp=none"
+```
+
+無いよりはマシ  
+
+
 {{< rawhtml >}}
 <div style="border: dashed 1px #ccc;">
 <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4873110289/sinokyoufu-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/51Q8BAGD76L._SL160_.jpg" alt="電子メールプロトコル―基本・実装・運用" style="border: none;" /></a>
