@@ -27,7 +27,7 @@ proofpoint の大きな機能としては下記のようなものがある
 基本的には BEC 判定の基準を満たせなくて拒否されているのかなと思う  
 
 ## セキュアなメールを目指す  
-送信するだけなら誰でも簡単にメールは遅れるけど、受信する側に信頼してもらうためには準備が必要です  
+送信するだけなら誰でも簡単にメールは送れるけど、受信する側に信頼してもらうためには準備が必要  
 <i class="fas fa-external-link-alt"></i> [有害情報対策ポータルサイト - 迷惑メール対策変 技術情報](https://salt.iajapan.org/wpmu/anti_spam/admin/tech/)  
 
 ### 名を名乗れ  
@@ -39,8 +39,8 @@ SMTPプロトコルでは 相手先に SMTP リクエストを送ったあと、
 hogehoge.com A 192.168.1.1
 ```
 
-しかし名前解決出来るかどうかだけであれば、
-送信側が所持しているメールドメインで無くても名前解決さえできればチェックがゆるいメールサーバには送信できてしまう  
+しかし名前解決出来るかどうかだけであれば、  
+送信側が所持しているメールドメインで無くても名前解決さえできれば問題ないことになってしまう  
 
 ### SPFレコードの設定
 メールサーバの挨拶が終わり、さぁメール送る際  
@@ -89,15 +89,20 @@ SaaSやASPサービスでメール送信を行う場合は多くは上記の対�
 
 ### DKIM鍵の作成
 
+DKIMサーバのインストール  
+
 ```
 # yum install --enablerepo=epel opendkim
 ```
+
+インストールするとユーザーが追加されてる  
 
 ```
 # getent passwd
 opendkim:x:990:987:OpenDKIM Milter:/var/run/opendkim:/sbin/nologin
 ```
 
+鍵の作成  
 
 ```
 # cd /etc/opendkim/keys/
@@ -113,7 +118,7 @@ opendkim:x:990:987:OpenDKIM Milter:/var/run/opendkim:/sbin/nologin
 hoge.private : 秘密鍵  
 hoge.txt : 公開鍵  
 
-鍵ファイルの権限は opendkim からのみ参照できるよう権限を変更しておく  
+鍵ファイルの権限は OpenDKIMサーバから参照できるよう権限を変更しておく  
 
 ```
 # chown opendkim: /etc/opendki
@@ -124,7 +129,7 @@ hoge.txt : 公開鍵
 ```
 # cat hoge.txt
 hoge._domainkey        IN      TXT     ( "v=DKIM1; k=rsa; "
-          "p=******************" )  ; ----- DKIM key study for hogehoge.com
+          "p=******************" )  ; ----- DKIM key hoge for hogehoge.com
 ```
 
 DNS登録内容  
@@ -194,7 +199,7 @@ KeyTableの作成
 ```
 # vim /etc/opendkim/KeyTable
 
-hoge._domainkey.hogehoge.com hogehoge.com:hoge:/etc/opendkim/keys/hogehoge.com/study.private
+hoge._domainkey.hogehoge.com hogehoge.com:hoge:/etc/opendkim/keys/hogehoge.com/hoge.private
 ```
 
 署名するメールドメインの指定  
@@ -232,7 +237,7 @@ hoge._domainkey.hogehoge.com hogehoge.com:hoge:/etc/opendkim/keys/hogehoge.com/s
    CGroup: /system.slice/opendkim.service
            └─9225 /usr/sbin/opendkim -x /etc/opendkim.conf -P /var/run/opendkim/opendkim.pid
 
- 8月 28 22:30:09 study-mng opendkim[9225]: OpenDKIM Filter v2.11.0 starting (args: -x /etc/opendkim.conf -P /va....pid)
+ 8月 28 22:30:09 localhost opendkim[9225]: OpenDKIM Filter v2.11.0 starting (args: -x /etc/opendkim.conf -P /va....pid)
 Hint: Some lines were ellipsized, use -l to show in full.
 ```
 
