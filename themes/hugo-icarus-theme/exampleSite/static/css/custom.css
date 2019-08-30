@@ -84,6 +84,7 @@ text-align: center;
 
 .article-entry table {
     margin-left: 15px;
+    width: initial;
 }
 .article-entry th {
     background-color: #0068b7;
@@ -92,5 +93,9 @@ text-align: center;
 }
 .article-entry td {
     padding: 10px 3px;
-    border-bottom: 1px solid #babdc0
+    border-bottom: 1px solid #babdc0;
+
+}
+.article-entry td,.article-entry th {
+    border-right: 1px dashed #babdc0;
 }
