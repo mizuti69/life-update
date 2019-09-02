@@ -61,10 +61,10 @@ pygmentsCodefences = true
     label  = "Live"
     link   = "/live"
 
-[[params.menu]]
-    before = false
-    label  = "Link"
-    link   = "/link"
+#[[params.menu]]
+#    before = false
+#    label  = "Link"
+#    link   = "/link"
 
 [[params.menu]]
     before = false
