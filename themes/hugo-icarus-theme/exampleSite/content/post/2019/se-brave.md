@@ -1,6 +1,6 @@
 +++
 title = "セキュアなブラウザー Brave ってどうなのか"
-tags = []
+tags = ["ブラウザ"]
 categories = ["SE"]
 date = "2019-08-27"
 description = "セキュアブラウザーのニュースで Brave っていうブラウザーを初めて見たのでインストールしてみる"

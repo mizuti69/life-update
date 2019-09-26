@@ -1,6 +1,6 @@
 +++
 title = "Redhat 8 何が変わってどうなったのか確認してみる"
-tags = ["OS"]
+tags = ["linux"]
 categories = ["SE"]
 date = "2019-09-25"
 description = "Redhat 8系の日本語マニュアルが出来てたので以前構築検証した内容を再確認してみる"

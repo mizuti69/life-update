@@ -1,6 +1,6 @@
 +++
 title = "よくみる OWASP Top10 の OWASP って何？"
-tags = []
+tags = ["セキュリティ"]
 categories = ["SE"]
 date = "2019-09-24"
 description = "セキュリティ製品等々でたまにみかける OWASP Top10対応ってなんのことなのか調べてみる"
