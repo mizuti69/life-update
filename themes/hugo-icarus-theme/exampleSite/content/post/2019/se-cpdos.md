@@ -49,13 +49,56 @@ AWSの CloudFront とかみたいにドキュメントが整備されている�
 > パケットヘッダ  
 > サーバからコンテナに送出されるパケットは 0x1234 で始まります。 コンテナからサーバに送られるパケットは AB (ASCII コード A と ASCII コード B) で始まります。この二バイトの後に、ペイロード長が (上記の形式で) 続きます。このため、ペイロード長の最大値は 2^16 にできるように思えますが、 実際にはコードでは最大値は 8K に設定されています。  
 
-[Nginx - Module ngx_http_core_module](http://nginx.org/en/docs/http/ngx_http_core_module.html#large_client_header_buffers)  
+<i class="fas fa-external-link-alt"></i> [Nginx - Module ngx_http_core_module](http://nginx.org/en/docs/http/ngx_http_core_module.html#large_client_header_buffers)  
 
 > Sets the maximum number and size of buffers used for reading large client request header. A request line cannot exceed the size of one buffer, or the 414 (Request-URI Too Large) error is returned to the client. A request header field cannot exceed the size of one buffer as well, or the 400 (Bad Request) error is returned to the client. Buffers are allocated only on demand. By default, the buffer size is equal to 8K bytes. If after the end of request processing a connection is transitioned into the keep-alive state, these buffers are released.  
 
 確かに記事のとおりのようだ  
 CDNなどを利用していてキャッシュを最大限に活用したい場合多くはヘッダー情報でキャッシュの細分化などせず URL とクエリくらいだろう  
 こんなの簡単にエラーを引き起こせてしまうやんけ  
+
+試してみる  
+8Kを超えるようなヘッダを作るため適当な cockie ファイルを作成し  
+Apacheにアクセスしてみると 400 エラーが起こせる  
+
+```
+$ head -c 8193 /dev/urandom |base64 > urandom_1m.txt
+$ tr -d '\n' < urandom_1m.txt > urandom.txt
+$ keyvalue=$(cat urandom.txt) ;curl -I -u hogehoge:hogehoge -b "hoge=$keyvalue" http://localhost:80/
+
+HTTP/1.1 400 Bad Request
+Date: Thu, 24 Oct 2019 10:35:29 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Server: Apache
+
+```
+
+Cloudfront 経由で攻撃しようとしてみると  
+
+```
+$ keyvalue=$(cat urandom.txt) ;curl -I -u hogehoge:hogehoge -b "hoge=$keyvalue" http://hogehoge.com/
+
+HTTP/2 494
+server: CloudFront
+date: Thu, 24 Oct 2019 10:35:07 GMT
+content-type: text/html
+content-length: 915
+x-cache: Error from cloudfront
+via: 1.1 95359b6e9b0852dc0d0d6b83ac77df4b.cloudfront.net (CloudFront)
+x-amz-cf-pop: NRT57-C2
+x-amz-cf-id: K1SxVFrwyDl1IUaOMAxc8N3RASvFa_SPIMY6EoVsL-MUamr4K9wZUQ==
+```
+
+あれ？ 494？  
+もう対策されたのかな？  
+
+### HTTPメタ文字(HMC)
+
+> HMCでは、元サーバーが「有害」だと判定しうる「\n」「\r」「\a」などの制御文字を含んだリクエストを送信します。
+> 元サーバーがこれらの制御文字を「有害」と判定するとキャッシュサーバーに対してエラーページを返します。
+
+これはちょっと手持ちの環境じゃ再現出来なかった、ドキュメントも見当たらないし  
 
 ### HTTPメソッドオーバーライド(HMO)
 
@@ -68,7 +111,7 @@ RFPとかなんかあるのかと探してみたけどちょっと見つから�
 当然そんなヘッダーを送ったって受け取るサーバ側がサポートしてなければ意味は無いのだが、キャッシュサーバが間にあると話が変わってくるという話  
 
 対応していない場合、そのヘッダーを解釈してリクエストメソッドを変更するのは Webサーバになりそうですが  
-Aapche や Nginx がどうこうというドキュメントは見当たらなかった  
+Aapche や Nginx がどうこうというドキュメントは見当たらないしそれだけでは驚異ということではなさそう  
 
 ## 対策
 ニュース記事にある通り、基本的に影響がヤバそうなのは **CloudFront** を使っている環境  
@@ -76,8 +119,20 @@ Aapche や Nginx がどうこうというドキュメントは見当たらなか
 
 ただ攻撃方法がシンプルなだけあって防ぐ方法がぱっとは無いのが現状  
 記事でも「エラーページをキャッシュしないように」くらいしか書いてない  
+ただ簡単な実験では再現は出来なかったので、そこまで慌てるほど広範囲で影響ありという感じでもなさそう  
 
-ほぼ AWS の CloudFront が問題なのでそれについて話すが、  
+ほぼ AWS の CloudFront が問題なのでそれについて話すが、WAFを入れるしか無い  
+
+### エラーページキャッシュの調整  
+CloudFrontの場合カスタムエラーページの設定があり、そこにエラー応答のキャッシュ時間が定義されている  
+<i class="fas fa-external-link-alt"></i> [AWS CloudFront - ディストリビューションを作成または更新する場合に指定する値](https://docs.aws.amazon.com/ja_jp/AmazonCloudFront/latest/DeveloperGuide/distribution-web-values-specify.html#DownloadDistValuesErrorPages)  
+
+<img src="/images/2019/se-cpdos/cpdos-01.png" />  
+
+Webサーバ、アプリの挙動に合わせて **413**、**414** 応答のエラー設定を追加してキャッシュをしないようにすることで緩和出来る  
+Originからエラーページを帰す場合はコンテンツのヘッダーにもキャッシュしないようにメタタグとかを追加しておこう  
+
+### WAFを入れる
 HMO については　CloudFront ＋ WAF 構成で利用しているのであれば指定ヘッダーの拒否等で回避できる  
 HHO も WAF でヘッダーサイズ拒否とかできそうだがそのヘッダーは使いたい！という環境はもうだめだ  
 
