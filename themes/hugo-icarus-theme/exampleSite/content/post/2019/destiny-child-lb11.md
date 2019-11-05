@@ -1,5 +1,5 @@
 +++
-title = "デスティニーチャイルド ラグナブレイク VANISHING TWIN 攻略メモ"
+title = "デスティニーチャイルド ラグナブレイク Season 10 VANISHING TWIN 攻略メモ"
 tags = ["デスチャ"]
 categories = ["Game"]
 date = "2019-11-02"
