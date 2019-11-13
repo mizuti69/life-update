@@ -235,6 +235,17 @@ IoT に特化した SIMカードを提供している
 
 IoT機器に対してどこまで出来るかは微妙そう  
 
+### IoTセキュリティ診断サービス
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://www.lac.co.jp/service/consulting/iot.html" data-iframely-url="//cdn.iframe.ly/wRV1poi?iframe=card-small"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
+
+インターネと経由でのセキュリティ診断サービス  
+
+---
+
+まだまだ IoT 機器については運用や監視、セキュリティ診断といったサービスはあるけど拡充してはいないという印象  
+ガイドラインを読んでそうか監視運用が大事なのねと思ってもそれに対する回答サービスが無い  
+大規模に工場とかに入れるなら大手と組んでとかあるかもしれないけどこれから色々問題が置きて、乗り越えてという時期なのかな  
+
 {{< rawhtml >}}
 <div style="border: dashed 1px #ccc;">
 <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4844368249/sinokyoufu-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/51EIov0ufuL._SL160_.jpg" alt="未来IT図解 これからのIoTビジネス" style="border: none;" /></a>
