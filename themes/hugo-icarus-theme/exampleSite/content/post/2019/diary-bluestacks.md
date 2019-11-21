@@ -1,6 +1,6 @@
 +++
 title = "パソコンでスマホアプリを遊べる BlueStacks インストールしてみる"
-tags = [""]
+tags = []
 categories = ["diary"]
 date = "2019-11-16"
 description = "Android エミュレーターの BlueStacks をインストールしてパソコンでスマホゲームをする！"
