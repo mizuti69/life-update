@@ -149,7 +149,10 @@ EC2 アクションを実行したりできる
 <img src="/images/2020/aws-cloudwatch/synthetics-14.png" />  
 
 ### Lambda構成のカスタマイズ
-Canaryで作成した監視用Lambda関数は下記のように登録されているの  
+Canaryで作成した監視用Lambda関数は下記のように登録されている  
+
+<img src="/images/2020/aws-cloudwatch/synthetics-15.png" />  
+
 Canaryは外部監視を出来ることが売りだが、VPCエンドポイントとか作って内部監視  
 NATGWとか使って固定IP化して一般公開以外のサイト監視にも対応など
 
