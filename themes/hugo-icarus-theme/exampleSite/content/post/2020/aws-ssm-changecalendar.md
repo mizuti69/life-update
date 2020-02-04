@@ -15,11 +15,11 @@ images = []
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://aws.amazon.com/jp/systems-manager/" data-iframely-url="//cdn.iframe.ly/N6HLoIW?iframe=card-small"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>  
 
 ### 料金  
-[AWS Systems Manager の料金](https://aws.amazon.com/jp/systems-manager/pricing/)  
+<i class="fas fa-external-link-alt"></i> [AWS Systems Manager の料金](https://aws.amazon.com/jp/systems-manager/pricing/)  
 まだメニュー項目には無いようだけれど、多分無料かな  
 
 ## Automation
-[AWS Systems Manager オートメーション](https://docs.aws.amazon.com/ja_jp/systems-manager/latest/userguide/systems-manager-automation.html)  
+<i class="fas fa-external-link-alt"></i> [AWS Systems Manager オートメーション](https://docs.aws.amazon.com/ja_jp/systems-manager/latest/userguide/systems-manager-automation.html)  
 Change Claender は Automation によって実行されるメンテナンス処理やタスクをスケジュールに基づいて管理しやすくするためのもの  
 まず Automation から始める  
 
@@ -65,7 +65,7 @@ RunCommand も含めいくつかドキュメントを作ったような思い出
 <img src="/images/2020/aws-automation/ssm-auto-03.png" />  
 
 ## Change Calendar
-[AWS Systems Manager Change Calendar](https://docs.aws.amazon.com/ja_jp/systems-manager/latest/userguide/systems-manager-change-calendar.html)  
+<i class="fas fa-external-link-alt"></i> [AWS Systems Manager Change Calendar](https://docs.aws.amazon.com/ja_jp/systems-manager/latest/userguide/systems-manager-change-calendar.html)  
 
 <img src="/images/2020/aws-automation/ssm-cc-01.png" />  
 
