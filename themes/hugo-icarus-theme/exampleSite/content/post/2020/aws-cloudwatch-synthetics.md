@@ -36,7 +36,7 @@ images = []
 <img src="/images/2020/aws-cloudwatch/synthetics-02.png" />  
 
 とりあえずテンプレートから触ってみる  
-設計図を選ぶと
+設計図を選ぶと  
 
 * ハートビートのモニタリング  
 * API Canary  
