@@ -20,9 +20,12 @@ images = []
 ## Firewall Manager  
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://aws.amazon.com/jp/firewall-manager/" data-iframely-url="//cdn.iframe.ly/kAVNERM?iframe=card-small"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>  
 
-Firewall Manager を利用する金額は発生せず、管理対象の WAF、Shild、Config 等の料金のみ  
-料金ページにはまだ セキュリティグループについては特に書いてないけど セキュリティグループ自体には金額かからないので同じでしょう  
+~~Firewall Manager を利用する金額は発生せず、管理対象の WAF、Shild、Config 等の料金のみ~~  
+~~料金ページにはまだ セキュリティグループについては特に書いてないけど セキュリティグループ自体には金額かからないので同じでしょう~~  
 <i class="fas fa-external-link-alt"></i> [AWS Firewall Manager の料金](https://aws.amazon.com/jp/firewall-manager/pricing/)  
+
+料金はポリシー数、ポリシーの適応アカウント数等で発生します  
+例えばセキュリティグループのみを自分のアカウント内の管理だけで利用でも月額 100USD/ポリシー/リージョン で発生します（エグい）  
 
 ## 事前作業
 <i class="fas fa-external-link-alt"></i> [AWS Firewall Manager の前提条件](https://docs.aws.amazon.com/ja_jp/waf/latest/developerguide/fms-prereq.html)  
