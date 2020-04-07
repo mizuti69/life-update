@@ -298,6 +298,22 @@ key C:\\xxxxxxx\\aws-vpn_cert\\client1.key
 * ACMに登録したCAから払い出されたクライアント証明書であればACMに登録してなくても認証できる  
 * クライアント証明書の失効管理はできる  
 
+## ClientVPNを Proxy用途で利用する場合  
+ClientVPN + NatGateway を組み合わせて固定IP Proxy 用途で利用する場合の追加設定  
+
+まずスプリットトンネルを無効化する  
+<img src="/images/2020/aws/clientvpn/clientvpn-11.png" />  
+
+認証設定で許可する宛先をすべてにし  
+
+<img src="/images/2020/aws/clientvpn/clientvpn-12.png" />  
+
+ルーティングも全てのトラフィックをVPN経由に流す  
+
+<img src="/images/2020/aws/clientvpn/clientvpn-13.png" />  
+
+最後に端末上で自身のGIPを確認し、NATGateway のIPになってれば完了  
+
 ---
 
 大分長くなったので NAT Gateway と DirectoryService のセットアップは次回に続く  
