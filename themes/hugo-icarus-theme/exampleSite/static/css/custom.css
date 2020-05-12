@@ -80,6 +80,7 @@ text-align: center;
 
 .article-entry li {
     margin-left: 15px;
+    word-wrap: break-word;
 }
 
 .article-entry table {
