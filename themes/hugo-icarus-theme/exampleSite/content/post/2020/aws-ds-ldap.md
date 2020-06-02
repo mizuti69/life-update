@@ -1,5 +1,5 @@
 +++
-title = "AWS DirectoryService Managed MicrosoftAD との LDAP 連携 下位CA編"
+title = "AWS DirectoryService Managed MicrosoftAD との LDAP 連携"
 tags = ["aws"]
 categories = ["SE"]
 date = "2020-06-01"
@@ -184,6 +184,17 @@ AD 側のセキュリティグループは AWS DirectoryService 上では確認�
 <img src="/images/2020/aws/ds/ad-ldap11.png" />  
 
 ldap ツールから接続出来ることを確認できれば OK  
+
+
+## ルートCA を利用した サーバ側 LDAP  
+2020/06/02 確認出来たので追記  
+
+基本的には 下位CA のときと同じで下記手順を実行するだけでいい  
+
+* AD の管理者権限委任
+* エンタープライズ CA にてルートCA構築
+* 証明書テンプレートの作成
+* セキュリティグループのACL設定追加
 
 ## よくわからないこと  
 <i class="fas fa-external-link-alt"></i> [AWS Managed Microsoft AD を使用したサーバー側 LDAPS の有効化](https://docs.aws.amazon.com/ja_jp/directoryservice/latest/admin-guide/ms_ad_ldap_server_side.html)  
