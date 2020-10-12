@@ -1,6 +1,6 @@
 +++
 title = "ファイナルギア 重装戦姫 1日目：基本情報"
-tags = ["GinalGear"]
+tags = ["FinalGear"]
 categories = ["Game"]
 date = "2020-10-09"
 description = "スマートフォンゲーム ファイナルギア 重装戦姫の プレイメモ・感想"
