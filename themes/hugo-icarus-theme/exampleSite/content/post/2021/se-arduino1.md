@@ -1,6 +1,6 @@
 +++
 title = "ELEGOO Arduino用UNO R3スターターキット で始める マイコン＋電子工作１"
-tags = ["PC"]
+tags = ["iot"]
 categories = ["SE"]
 date = "2021-02-08"
 description = "ELEGOO Arduino用UNO R3スターターキット チュートリアル入門"

@@ -1,6 +1,6 @@
 +++
 title = "CentOS RHEL互換の AlmaLinux 8.3 Beta を触ってみる"
-tags = ["PC"]
+tags = ["Linux"]
 categories = ["SE"]
 date = "2021-02-05"
 description = "CentOS 代替として名乗りを上げた AlmaLinux の Beta が公開されたので触ってみる"
