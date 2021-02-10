@@ -119,10 +119,97 @@ void loop()
 * (1) x Passive buzzer 
 * (2) x F-M wires (Female to Male DuPont wires) 
 
+**パッシブブザー**  
+
+<img src="/images/2021/se/arduino/tutorial-24.png" />  
+
 パッシブブザーは先述したとおり、振動回路を持たないブザー  
+ELEGOOのセットはアクティブブザーにシールが張ってあって区別しやすいけどピン側以外は見た目同じ  
 
+**構成**  
 
+<img src="/images/2021/se/arduino/tutorial-25.png" />  
 
+構成自体は前のアクティブブザーと同じ  
+ただ端子自体の長さとかで＋－の見分けがつかない  
+赤色（正極性）のピン 8 に黒色線（負）を GND に配線します。  
+
+このままでは当然音を発しないのでサンプルコードを開く  
+
+<img src="/images/2021/se/arduino/tutorial-26.png" />  
+
+サンプルコードを見てみるとまず最初に「pitches.h」というモジュールをインクルードしている  
+最初のチュートリアルにあったようにライブラリの管理から「pitch」で検索して必要なモジュールがあるか確認し  
+無いので同様にサンプルコードと一緒に配置してるライブラリを追加する  
+
+<img src="/images/2021/se/arduino/tutorial-27.png" />  
+
+読み込めると下記のようにライブラリリストに確認できる  
+
+<img src="/images/2021/se/arduino/tutorial-28.png" />  
+
+デプロイすると音階のメロディが聞ける  
+コードを見てみよう  
+
+```
+int melody[] = {
+  NOTE_C5, NOTE_D5, NOTE_E5, NOTE_F5, NOTE_G5, NOTE_A5, NOTE_B5, NOTE_C6};
+int duration = 500;  // 500 miliseconds
+
+void loop() {  
+  for (int thisNote = 0; thisNote < 8; thisNote++) {
+    // pin8 output the voice, every scale is 0.5 sencond
+    tone(8, melody[thisNote], duration);
+     
+    // Output the voice after several minutes
+    delay(1000);
+  }
+   
+  // restart after two seconds 
+  delay(2000);
+}
+```
+
+この辺からチュートリアルでコードの説明がなくなる・・・  
+
+`int melody` に配列で ８要素指定し  
+それらを `loop` で１配列ずつ `tone` 関数で `delay` を実行して音を鳴らしてるんかな  
+
+メロディの指定はどうやっているのか？  
+今回読み込ませたライブラリ内を見てみると下記のように羅列してあり  
+
+```
+#define NOTE_B0  31
+#define NOTE_C1  33
+#define NOTE_CS1 35
+#define NOTE_D1  37
+#define NOTE_DS1 39
+#define NOTE_E1  41
+#define NOTE_F1  44
+#define NOTE_FS1 46
+#define NOTE_G1  49
+#define NOTE_GS1 52
+#define NOTE_A1  55
+#define NOTE_AS1 58
+#define NOTE_B1  62
+
+~ 省略  
+```
+
+指定した音の定義に対して数字が振られている  
+数字がどの音階に対応しているかというと周波数で決まっている  
+
+<div class="blogcardfu" style="width:auto;max-width:9999px;border:1px solid #E0E0E0;border-radius:3px;margin:10px 0;padding:15px;line-height:1.4;text-align:left;background:#FFFFFF;"><a href="https://www.aihara.co.jp/~taiji/browser-security/js/equal_temperament.html" target="_blank" style="display:block;text-decoration:none;"><span class="blogcardfu-image" style="float:right;width:100px;padding:0 0 0 10px;margin:0 0 5px 5px;"><img src="https://capture.heartrails.com/100x100?https://www.aihara.co.jp/~taiji/browser-security/js/equal_temperament.html" width="100" style="width:100%;height:auto;max-height:100px;min-width:0;border:0 none;margin:0;"></span><br style="display:none"><span class="blogcardfu-title" style="font-size:112.5%;font-weight:700;color:#333333;margin:0 0 5px 0;">12平均律と周波数</span><br><span class="blogcardfu-content" style="font-size:87.5%;font-weight:400;color:#666666;"></span><br><span style="clear:both;display:block;overflow:hidden;height:0;">&nbsp;</span></a></div>
+
+例えばコード中の `NOTE_C5` は ライブラリでは値が `523` と設定されていて  
+`523`、つまり 523Hz は ド/C5 になる  
+
+---
+
+段々身近なものや、プログラミングで色々できる回路が出てきてぼんやり楽しくなってきた  
+
+とりあえず今回はここまで  
+多分次回に続く  
 
 {{< rawhtml >}} 
 <div style="text-align: center;;">

@@ -103,6 +103,14 @@ loop内で LEDに電力を通すピンをHIGHにして電気を通す
 
 なんとなくだけど、今回のチュートリアルでスイッチを利用する場合、 Arduino のデジタル回路側ピンを使った理由がわかる  
 
+---
+
+だんだん　ん・・・・ん？という疑問点が増えてきたけど  
+細かいことは一旦置いておいて触ることを優先して学習していく  
+
+とりあえず今回はここまで  
+多分次回に続く  
+
 {{< rawhtml >}} 
 <div style="text-align: center;;">
 <iframe src="https://rcm-fe.amazon-adsystem.com/e/cm?o=9&p=293&l=ur1&category=amazonrotate&f=ifr&linkID=d69db1f209bc15798210ca62263bede2&t=sinokyoufu-22&tracking_id=sinokyoufu-22" width="640" height="100" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
