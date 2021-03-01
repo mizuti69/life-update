@@ -58,13 +58,18 @@ pygmentsCodefences = true
 
 [[params.menu]]
     before = false
-    label  = "Live"
+    label  = "Live日誌"
     link   = "/live"
 
 #[[params.menu]]
 #    before = false
 #    label  = "Link"
 #    link   = "/link"
+
+[[params.menu]]
+    before = false
+    label  = "デスチャDB"
+    link   = "/game/descha"
 
 [[params.menu]]
     before = false

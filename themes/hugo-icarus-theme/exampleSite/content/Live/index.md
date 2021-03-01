@@ -1,7 +1,7 @@
 +++
 title = "LiveHistory"
 date = "2019-07-20"
-menu = "live"
+menu = "live日誌"
 description = "ライブ参戦履歴一覧"
 banner = "banners/bunner_fes.jpg"
 images = []
@@ -217,7 +217,18 @@ disable_comments = true
 
 ## 2020年
 2020/01/04  『MOUSE 2 MOUSE』 @渋谷ヒカリエホールB  
+2020/01/13  LAMP IN TERREN 『Bloom』 @赤坂マイナビBlitz  
+2020/01/25  ラックライフ 『Rise The Flag』 @LIQUIDROOM  
+2020/02/08  Newspeak 『No Man’s Empire Tour』 @渋谷CLUB QUATTORO  
+2020/12/06  tacica 『Space Folk』 @東京キネマ倶楽部  
 
+## 2021年  
+2021/12/06  tacica 『三大博物館 Re:quest～探求者の再訪～』 @ShibuyaWWWW X  
+2021/02/27  Nothing's Carved In Stone 『BEGINING 2021 feat. PARALLEL LIVES』 @StudioCoast  
 
+{{< rawhtml >}} 
+<div style="text-align: center;;">
 <iframe src="https://rcm-fe.amazon-adsystem.com/e/cm?o=9&p=12&l=ez&f=ifr&linkID=e3cbc3b4da7c4fd3d2f2cd82c15d695a&t=sinokyoufu-22&tracking_id=sinokyoufu-22" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0">
 </iframe>
+</div>
+{{< /rawhtml >}}
