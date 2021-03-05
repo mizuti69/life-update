@@ -59,8 +59,7 @@ Arduino のアナログ入力は 10ビット分解能なので 0V～5Vの電圧�
 真上からみてコントローラーの左右上下がそれぞれ 0 ~ 1023  
 中心にあるデフォルトの場合 x,y それぞれ 511 くらいってことになる  
 基盤部分は スイッチの ON/OFF と 電圧の変化を伝えてるってことですね  
-
-<div class="blogcardfu" style="width:auto;max-width:9999px;border:1px solid #E0E0E0;border-radius:3px;margin:10px 0;padding:15px;line-height:1.4;text-align:left;background:#FFFFFF;"><a href="https://www.arduino.cc/reference/en/language/functions/analog-io/analogread/" target="_blank" style="display:block;text-decoration:none;"><span class="blogcardfu-image" style="float:right;width:100px;padding:0 0 0 10px;margin:0 0 5px 5px;"><img src="https://capture.heartrails.com/100x100?https://www.arduino.cc/reference/en/language/functions/analog-io/analogread/" width="100" style="width:100%;height:auto;max-height:100px;min-width:0;border:0 none;margin:0;"></span><br style="display:none"><span class="blogcardfu-title" style="font-size:112.5%;font-weight:700;color:#333333;margin:0 0 5px 0;">analogRead() - Arduino Reference</span><br><span class="blogcardfu-content" style="font-size:87.5%;font-weight:400;color:#666666;">The Arduino programming language Reference, organized into Functions, Variable and Constant, and Structure keywords.</span><br><span style="clear:both;display:block;overflow:hidden;height:0;">&nbsp;</span></a></div>
+<i class="fas fa-external-link-alt"></i> [analogRead() - www.arduino.cc](https://www.arduino.cc/reference/en/language/functions/analog-io/analogread/)  
 
 **構成**  
 
@@ -145,16 +144,14 @@ IR 検出器はデジタル出力です。これらは 38KHz  IR 信号を検出
 
 赤外線を利用したリモコン通信はモールス信号のように ON/OFF を組み合わせてやりとりしている（PPM パルス位相変調）  
 PPM方式にはフォーマットがあり、「NECフォーマット」、「Sonyフォーマット」等がある  
-
 ※PPMは以前出てきたPWMとは別  
+<i class="fas fa-external-link-alt"></i> [赤外線リモコンについて - www.256byte.com](http://www.256byte.com/remocon.htm#:~:text=%E3%83%AA%E3%83%A2%E3%82%B3%E3%83%B3%E3%81%A8%E6%9C%AC%E4%BD%93%E3%81%AE%E9%80%9A%E4%BF%A1&text=%E3%83%A2%E3%83%BC%E3%83%AB%E3%82%B9%E4%BF%A1%E5%8F%B7%E3%81%A7%E3%81%AF%E6%96%87%E5%AD%97%E3%82%92,%E6%9C%AC%E4%BD%93%E3%81%B8%E4%BC%9D%E3%81%88%E3%82%89%E3%82%8C%E3%81%BE%E3%81%99%E3%80%82)  
 
-<div class="blogcardfu" style="width:auto;max-width:9999px;border:1px solid #E0E0E0;border-radius:3px;margin:10px 0;padding:15px;line-height:1.4;text-align:left;background:#FFFFFF;"><a href="http://www.256byte.com/remocon.htm#:~:text=%E3%83%AA%E3%83%A2%E3%82%B3%E3%83%B3%E3%81%A8%E6%9C%AC%E4%BD%93%E3%81%AE%E9%80%9A%E4%BF%A1&amp;text=%E3%83%A2%E3%83%BC%E3%83%AB%E3%82%B9%E4%BF%A1%E5%8F%B7%E3%81%A7%E3%81%AF%E6%96%87%E5%AD%97%E3%82%92,%E6%9C%AC%E4%BD%93%E3%81%B8%E4%BC%9D%E3%81%88%E3%82%89%E3%82%8C%E3%81%BE%E3%81%99%E3%80%82" target="_blank" style="display:block;text-decoration:none;"><span class="blogcardfu-image" style="float:right;width:100px;padding:0 0 0 10px;margin:0 0 5px 5px;"><img src="https://capture.heartrails.com/100x100?http://www.256byte.com/remocon.htm#:~:text=%E3%83%AA%E3%83%A2%E3%82%B3%E3%83%B3%E3%81%A8%E6%9C%AC%E4%BD%93%E3%81%AE%E9%80%9A%E4%BF%A1&amp;text=%E3%83%A2%E3%83%BC%E3%83%AB%E3%82%B9%E4%BF%A1%E5%8F%B7%E3%81%A7%E3%81%AF%E6%96%87%E5%AD%97%E3%82%92,%E6%9C%AC%E4%BD%93%E3%81%B8%E4%BC%9D%E3%81%88%E3%82%89%E3%82%8C%E3%81%BE%E3%81%99%E3%80%82" width="100" style="width:100%;height:auto;max-height:100px;min-width:0;border:0 none;margin:0;"></span><br style="display:none"><span class="blogcardfu-title" style="font-size:112.5%;font-weight:700;color:#333333;margin:0 0 5px 0;">FUTABA HOME</span><br><span class="blogcardfu-content" style="font-size:87.5%;font-weight:400;color:#666666;"></span><br><span style="clear:both;display:block;overflow:hidden;height:0;">&nbsp;</span></a></div>
 
 PWMと似たような新しく PPM という単語が出てきましたね  
 他にもいくつかあるようですが要はパルス、ON/OFF による短波系をどうデータに変調させるかの方式たちのこと(かな？)  
 それぞれにメリット・デメリットがあるらしい、わからん  
-
-<div class="blogcardfu" style="width:auto;max-width:9999px;border:1px solid #E0E0E0;border-radius:3px;margin:10px 0;padding:15px;line-height:1.4;text-align:left;background:#FFFFFF;"><a href="https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%AB%E3%82%B9%E5%A4%89%E8%AA%BF" target="_blank" style="display:block;text-decoration:none;"><span class="blogcardfu-title" style="font-size:112.5%;font-weight:700;color:#333333;margin:0 0 5px 0;">パルス変調 - Wikipedia</span><br><span class="blogcardfu-content" style="font-size:87.5%;font-weight:400;color:#666666;"></span><br><span style="clear:both;display:block;overflow:hidden;height:0;">&nbsp;</span></a></div>
+<i class="fas fa-external-link-alt"></i> [パルス変調 - Wiki](https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%AB%E3%82%B9%E5%A4%89%E8%AA%BF)  
 
 今回のチュートリアルで利用するのはレシーバーモジュール  
 リモコン等から赤外線通信した際にどのようなデータが受信されているのか確認してみようって感じかな  

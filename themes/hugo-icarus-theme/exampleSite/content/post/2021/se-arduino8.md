@@ -75,7 +75,7 @@ Arduino にはライブラリにより抽象化されているためほとんど
 {{< /rawhtml >}}
 
 上記のと見た目は違うがセットに含まれてるのは PT-15 というポテンションメータ（ノブ付き）  
-[PT06PT15トリマーポテンショメータ (ノブ付き) - japanese.alibaba.com](https://japanese.alibaba.com/product-detail/pt06-pt15-trimmer-potentiometer-with-knob-60484680409.html)  
+<i class="fas fa-external-link-alt"></i> [PT06PT15トリマーポテンショメータ (ノブ付き) - japanese.alibaba.com](https://japanese.alibaba.com/product-detail/pt06-pt15-trimmer-potentiometer-with-knob-60484680409.html)  
 
 ポテンションメータとは抵抗値を任意の値に変更できる可変抵抗器のこと  
 オーディオのボリューム調整といったアナログ電圧の制御・設定から、カメラのズームレンズ制御といった位置・角度検出センサまでと、幅広い用途で用いられている電子部品  
@@ -152,7 +152,7 @@ Loop 側に記述することで 処理されるたびに表示される値が�
 
 またなんで LCD の D0 から配線していないのか？という点については
 下記リファレンスにもあるとおり D0 ~ D3 はオプションになっており  
-[LiquidCrystal() - Arduino 日本語リファレンス](http://www.musashinodenpa.com/arduino/ref/index.php?f=1&pos=931)  
+<i class="fas fa-external-link-alt"></i> [LiquidCrystal() - Arduino 日本語リファレンス](http://www.musashinodenpa.com/arduino/ref/index.php?f=1&pos=931)  
 
 動作モードによって使うピンが変わるからである  
 4つのデータピンを使用する4ビットモード（d4-d7）と8つのデータピンすべてを使用する8ビットモード（d0-d7）の2つの主要な動作モードがあり  
@@ -161,8 +161,8 @@ Loop 側に記述することで 処理されるたびに表示される値が�
 
 4bit モードと 8bit モードの違いは単純に表示速度ですが  
 マイクロチップコントローラーの発展や色々と時代の経緯やなんやかんやがあるようです  
-[マイクロコントローラ - Wiki](https://ja.wikipedia.org/wiki/%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%AD%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AD%E3%83%BC%E3%83%A9)  
-[液晶表示モジュールを４ビットモードで使ったときの空きピン処理 - act-ele.c.ooco.jp](http://act-ele.c.ooco.jp/trouble/lcd4bit/lcd4bit.htm)  
+<i class="fas fa-external-link-alt"></i> [マイクロコントローラ - Wiki](https://ja.wikipedia.org/wiki/%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%AD%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AD%E3%83%BC%E3%83%A9)  
+<i class="fas fa-external-link-alt"></i> [液晶表示モジュールを４ビットモードで使ったときの空きピン処理 - act-ele.c.ooco.jp](http://act-ele.c.ooco.jp/trouble/lcd4bit/lcd4bit.htm)  
 
 ちょっとガチで勉強しないと何言ってるのか、何が問題なのかわからないのでふーんくらいで流しておきます  
 
