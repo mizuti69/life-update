@@ -1,4 +1,4 @@
-baseurl = "https://develop--life-update.netlify.app/"
+baseurl = "https://life-update.netlify.app/"
 languageCode = "ja-jp"
 title = "Life update"
 # Enable comments by entering your Disqus shortname
