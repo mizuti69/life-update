@@ -104,9 +104,6 @@ text-align: center;
 #profile .other-links {
     background-color: #f8f8f6;
 }
-#profile .other-links ul, ol, a {
-    /padding: 0.5em 0.5em 0.5em 2em;
-}
 #profile .other-links ul li, ol li {
     line-height: 0.5; /*文の行高*/
     padding: 0.5em 0; /*前後の文との余白*/
