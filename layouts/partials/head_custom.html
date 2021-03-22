@@ -1,0 +1,32 @@
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" /></meta>
+    <meta name="twitter:site" content="{{ .Site.Social.twitter }}"></meta>
+    <meta name="twitter:title" content="{{ if eq .URL "/" }}<title>{{ .Site.Title }}</title>{{ else }}<title>{{ .Title }}&nbsp;-&nbsp;{{ .Site.Title }}</title>{{ end }}"></meta>
+    <meta name="twitter:url" content="{{ .Permalink }}"></meta>
+    <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}"></meta>
+    <!-- end -->
+    {{ if eq .URL "/" }}
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}banners/default.jpg"></meta>
+    {{ else }}
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.banner }}"></meta>
+    {{ end }}
+    <!-- Google Adsense -->
+    <!--<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+       (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-8455952442964311",
+          enable_page_level_ads: true
+      });
+    </script>-->
+    <script data-ad-client="ca-pub-8455952442964311" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- end -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-54774840-6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+
+      gtag('config', 'UA-54774840-6');
+    </script>
+    <!-- end -->
