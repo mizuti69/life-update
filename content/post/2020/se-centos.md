@@ -9,6 +9,8 @@ banner = "banners/bunner_tech.jpg"
 images = []
 +++
 
+<!--more-->
+
 ## 「CentOS 8」が2021年末で終了、以後の開発はCentOS Streamに注力する方針が明らかに
 <div class="blogcardfu" style="width:auto;max-width:9999px;border:1px solid #E0E0E0;border-radius:3px;margin:10px 0;padding:15px;line-height:1.4;text-align:left;background:#FFFFFF;"><a href="https://gigazine.net/news/20201209-centos-project/" target="_blank" style="display:block;text-decoration:none;"><span class="blogcardfu-image" style="float:right;width:100px;padding:0 0 0 10px;margin:0 0 5px 5px;"><img src="https://images.weserv.nl/?w=100&url=ssl:i.gzn.jp/img/2020/12/09/centos-project/00.png" width="100" style="width:100%;height:auto;max-height:100px;min-width:0;border:0 none;margin:0;"></span><br style="display:none"><span class="blogcardfu-title" style="font-size:112.5%;font-weight:700;color:#333333;margin:0 0 5px 0;">「CentOS 8」が2021年末で終了、以後の開発はCentOS Streamに注力する方針が明らかに</span><br><span class="blogcardfu-content" style="font-size:87.5%;font-weight:400;color:#666666;">Linuxディストリビューションの1つ「CentOS」を開発しているThe CentOS Projectが、軸足を「CentOS 8」から「CentOS Stream」に移すことを明らかにしました。今後、CentOS StreamはRHEL(Red Hat Enterprise Linux)の開発ブランチとして機能していくことになります。一方で、CentOS 8は2021年末をもって終了します。</span><br><span style="clear:both;display:block;overflow:hidden;height:0;">&nbsp;</span></a></div>  
 
