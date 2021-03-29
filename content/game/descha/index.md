@@ -11,9 +11,9 @@ disable_comments = true
 ---
 
 ## チャイルドインデックス  
-[チャイルド一覧](https://www.notion.so/ed1d9f6b35ff4cb5a8d99958154ea910?v=86b0f17388a74116b8591a7a0f649ff5)  
-装備メモ  
-カルタメモ  
+[★5チャイルド一覧](https://www.notion.so/ed1d9f6b35ff4cb5a8d99958154ea910?v=86b0f17388a74116b8591a7a0f649ff5)  
+[★4チャイルド一覧](https://www.notion.so/c6bd48b0cb214651baeef74d3e170775?v=52fcc4fd29b94887b287948dc5fe6777)  
+[★3チャイルド一覧](https://www.notion.so/570bdf7306ed4801886c20db6b6eef3d?v=21f6dee1259041f9be6de05e244ae823)  
 
 ## ワールドボス・トライアル
 [ワールドボス 火属性 たまも](/2019/09/02/destiny-child-wb08/)  
