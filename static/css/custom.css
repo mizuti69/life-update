@@ -84,21 +84,11 @@ text-align: center;
 }
 
 .article-entry table {
-    margin-left: 15px;
-    width: initial;
-}
-.article-entry th {
-    background-color: #0068b7;
-    color: white;
-    padding: 5px 3px;
-}
-.article-entry td {
-    padding: 10px 3px;
-    border-bottom: 1px solid #babdc0;
-
+    margin-left: 10px;
 }
 .article-entry td,.article-entry th {
-    border-right: 1px dashed #babdc0;
+    padding: 10px 5px;
+    border: 1px solid #babdc0;
 }
 
 #profile .other-links {
