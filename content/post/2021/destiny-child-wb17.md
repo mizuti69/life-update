@@ -99,6 +99,27 @@ HPの残りが最も多い4体にダメージを与え、12秒間、分解&自�
 
 次回も闇属性レイドが控えてるので、適度に花は使ってイベント中ちょっとでも向上するといいな  
 
+## 編成麗2
+2021年 04月23日更新
+
+デスチャ初の復刻イベント。  
+前回の編成をベースに更新できるところは更新していく。  
+
+<img src="/images/2021/destiny-child-wb/wb17-3.png" />  
+
+更新点は中毒要員のセルケトを**テティス**に  
+盾要員のマルスを**ネフティス**に  
+ディーラーを新★5**ティタニア**に  
+全体の戦力自体は下がっているがシナジーは強化してる感じ。  
+
+それ以外のドライブ順等は同じ。  
+
+### ダメージ
+
+<img src="/images/2021/destiny-child-wb/wb17-4.png" />  
+
+平均ダメージは前回同様 1300万前後なのでそこまで成長してなかった。悲しい。  
+
 {{< rawhtml >}} 
 <div style="border: dashed 1px #ccc;">
 <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B07H3319GX/sinokyoufu-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/51MxXwUpZWL._SL160_.jpg" alt="デスティニーチャイルド 秋葉原アトレ コラボ B2タペストリー ダビ" style="border: none;" /></a>
