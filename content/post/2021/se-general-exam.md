@@ -1,6 +1,6 @@
 +++
 title = "AI・ディープラーニング検定 G検定の資格取得勉強法"
-tags = ["Web"]
+tags = ["資格"]
 categories = ["SE"]
 date = "2021-08-04"
 menu = ""
