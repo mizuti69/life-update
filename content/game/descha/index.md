@@ -29,6 +29,9 @@ disable_comments = true
 [ワールドボス 闇属性 シャイニーデビマーズ](/2021/01/04/destiny-child-wb17/)  
 [ワールドボス 木属性 ネフティス](/2021/02/11/destiny-child-wb18/)  
 [ワールドボス 火属性 ワイアット](/2021/03/12/destiny-child-wb19/)  
+[ワールドボス 水属性 メシエ](/2021/05/07/destiny-child-wb20/)  
+[ワールドボス 光属性 バリ](/2021/06/18/destiny-child-wb21/)  
+[ワールドボス 闇属性 ポルキュース](/2021/07/30/destiny-child-wb22/)  
 
 ## ラグナブレイク
 [ラグナブレイク 水属性 ビリー](/2019/08/05/destiny-child-lb9/)  
@@ -46,3 +49,6 @@ disable_comments = true
 [ラグナブレイク 水属性 プロケル](/2020/12/21/destiny-child-lb20/)  
 [ラグナブレイク 闇属性 ヘパイストス](/2021/02/01/destiny-child-lb20/)  
 [ラグナブレイク 木属性 ミリアム](/2021/04/12/destiny-child-lb22/)  
+[ラグナブレイク 闇属性 カドケウス](/2021/05/24/destiny-child-lb23/)  
+[ラグナブレイク 水属性 ロキ](/2021/07/05/destiny-child-lb24/)  
+[ラグナブレイク 水属性 クババ](/2021/08/16/destiny-child-lb25/)  
