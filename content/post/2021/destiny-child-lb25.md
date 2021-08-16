@@ -38,7 +38,7 @@ HPの残りが最も多い敵を優先して、3体にダメージを与え、10
 色々悩んだ挙げ句の編成  
 
 今回のボスはHPの多い敵には踊る刃で防御力を下げ、攻撃力が高い敵には攻撃力を下げさせる面倒くさい敵。  
-一番面倒なのは攻撃力の変化によりバフ対象がずれてしまうこと、そのためディーラーのカルタ等はデバフ回避率を下げる装備セットにし、その他はHPをがん盛りすること。  
+一番面倒なのは攻撃力の変化によりバフ対象がずれてしまうこと、そのためディーラーのカルタ等はデバフ回避率を下げる装備セットにし、その他のチャイルドはHPをがん盛りすること。  
 前回のWB同様にメインのダメージソースは持続系ダメージと腐敗になる。  
 
 理想は**ネプチューン**の代わりに**ロザンナ**なんだろうけど私は回復なしには無理。
@@ -78,7 +78,7 @@ Nスキルディーラーの場合こちらも理想はロザンナとルパン�
 ### ダメージ
 <img src="/images/2021/destiny-child-lb/lb25-2.png" />  
 
-全ては木シトリーのクリティカルアップの付与率次第。祈りましょう。  
+全ては木シトリーの集中付与率次第。祈りましょう。  
 
 最高に上手くバフが乗って900万以上、最低の運で450万前後とブレ幅が半端ない。平均的には500万～650万という感じ。フィーバーダメージが全部で300万以上出てたときは当たりの時、650万以上出ればワンパン1位確定なので神に祈ろう。  
 木シトリーを3段階目までイグニッションしている人が多いが、WBはともかく個人的にはそこまでメリットを感じてない。本当にバフが乗ってでフィーバーに行けるかどうかという運。  
@@ -98,5 +98,7 @@ Nスキルディーラーの場合こちらも理想はロザンナとルパン�
 
 ディーラーは環境やガチャ次第で変わったりするため、やっぱ★５をイグニッションするなら支援型からかな～コア厳選も必要ないし。  
 
+<div style="text-align: center;;">
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=FFFFFF&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=sinokyoufu-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=4047353116&linkId=e8edd32f2a7e786d468bcce4a0dcd150"></iframe>
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=FFFFFF&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=sinokyoufu-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=4040650107&linkId=4652206e494b4ccfe74d137f5db13ff8"></iframe>
+</div>
